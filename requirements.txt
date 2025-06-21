@@ -1,0 +1,11 @@
+yt-dlp
+opencv-python 
+torch 
+torchvision 
+numpy
+ultralytics
+streamlit 
+prometheus_client 
+opencv-python 
+ultralytics 
+easyocr

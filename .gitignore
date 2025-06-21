@@ -1,2 +1,7 @@
 pi_vision_venv/
 test\practice\youtube_clip_1 - 1080p.mp4
+project/yolov8n.pt
+test/output/youtube_clip_1 - 1080p_detected.mp4
+test/practice/youtube_clip_1 - 1080p.mp4
+test/practice/youtube_clip_1 - 360p.mp4
+test/output/youtube_clip_1 - 360p_detected.mp4

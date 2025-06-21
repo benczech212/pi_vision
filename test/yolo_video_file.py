@@ -6,7 +6,9 @@ import os
 model = YOLO("yolov8n.pt")
 
 # Open video file
-input_path = "practice\\ai_boat_shot2.mp4"
+input_folder = "practice"
+input_filename = "youtube_clip_1 - 1080p.mp4"
+input_path = os.path.join(input_folder, input_filename)
 cap = cv2.VideoCapture(input_path)
 
 if not cap.isOpened():
@@ -19,7 +21,10 @@ width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 # Set up VideoWriter
-output_path = "output\\ai_boat_detected.mp4"
+# use input filename for output
+output_folder = "output"
+output_filename = input_filename.replace(".mp4", "_detected.mp4")
+output_path = os.path.join(output_folder, output_filename)
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")  # or use "XVID" for .avi
