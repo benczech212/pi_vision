@@ -1,0 +1,5 @@
+path: E:/dev/pi_vision/manatee/yolo11_dataset
+train: images/train
+val: images/val
+names:
+  0: manatee

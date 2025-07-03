@@ -1,7 +1,20 @@
-pi_vision_venv/
+yoloenv/
 test\practice\youtube_clip_1 - 1080p.mp4
 project/yolov8n.pt
 test/output/youtube_clip_1 - 1080p_detected.mp4
 test/practice/youtube_clip_1 - 1080p.mp4
 test/practice/youtube_clip_1 - 360p.mp4
 test/output/youtube_clip_1 - 360p_detected.mp4
+custom_models/
+manatee/original_dataset/
+manatee/runs/
+manatee/yolo11_dataset/
+yolovenv/
+output/youtube_clip_1 - 1080p_detected.mp4
+output/youtube_clip_1 - 360p_detected.mp4
+output/aboveWater-001_1_detected_20250630_195924.mp4
+output/aboveWater-001_1_detected_20250630_172249.mp4
+output/aboveWater-001_1_detected_20250630_171656.mp4
+output/aboveWater-001_1_detected.mp4
+output/ai_boat_shot1_detected_20250630_200035.mp4
+output/ai_boat_shot1_detected.mp4
